@@ -6,12 +6,13 @@
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+After setting up your SvelteKit project and installing the necessary dependencies using `npm`, `pnpm` or `yarn`, you can start a development server by running the following command:
 
 ```bash
 pnpm run dev
 
 # or start the server and open the app in a new browser tab
+
 pnpm dev
 ```
 
