@@ -9,7 +9,7 @@ export let data;
 <div class="grid lg:grid-cols-3 gap-4 ">
   {#each data.posts as post }
     <div class="rounded-sm bg-slate-50 p-5">
-     <a class="text-blue-400 text-xl font-bold" href="/posts/{post.id}">{post.title}</a>
+     <a class="text-blue-400 text-xl font-bold" href="/{post.id}">{post.title}</a>
      <p class="text-md text-slate-500">{post.body}</p>
     </div>
   {/each}
